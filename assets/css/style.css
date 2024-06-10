@@ -1,0 +1,39 @@
+body {
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    width: 60%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.left {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.right {
+    flex: 1;
+    display: -ms-inline-flexbox;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    margin: 10px;
+    text-align: left;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, yellow, white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
