@@ -11,29 +11,70 @@ header {
 
 .left {
     flex:1;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
-    margin: 10px;
+    margin: 40px auto;
 }
 
 .right {
     flex: 1;
-    display: -ms-inline-flexbox;
-    justify-content: center;
-    flex-direction: column;
-    border: 2px solid black;
-    align-items: center;
+    box-sizing: border-box;
     margin: 10px;
     text-align: left;
 }
 
+input {
+  border-radius: 3px;
+  border-width: 1px;
+  font-size: 1.1em;
+  height: 45px;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 8px 8px 8px 8px;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.2s, 0.2s;
+  transition-property: background-color, color;
+  transition-timing-function: ease, ease;
+  vertical-align: middle;
+  width: 100%;
+}
 .circle {
+    display: flex;
     width: 200px;
     height: 200px;
     background: radial-gradient(circle, yellow, white);
     border-radius: 50%;
-    display: flex;
+    margin: 70px auto;
+    padding: 20px;
     justify-content: center;
     align-items: center;
+}
+
+.card {
+    display: block;
+    background-color: #bebebe;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: grey;
+    margin: 40px auto;
+    height: auto;
+    padding: 20px;
+    width: 60vw;
+}
+
+#submit {
+    background-color: black;
+    border-radius: 100px;
+    color: #fff;
+    line-height: 20px;
+    max-width: 300px;
+    padding: 10px 170px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.7em;
 }
